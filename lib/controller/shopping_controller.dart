@@ -20,19 +20,19 @@ class ShoppingController extends GetxController {
           productName: 'PeakMilk',
           productImage: 'productImage',
           productDescription: 'best milk ever',
-          price: 35.8),
+          price: 35.0),
       Product(
           id: 2,
           productName: 'Adiddas',
           productImage: 'productImage',
-          productDescription: 'one of the greatest shoes ever',
+          productDescription: "Gear up with the latest shoes",
           price: 40.5),
       Product(
           id: 3,
           productName: 'G-Shock',
           productImage: 'productImage',
           productDescription: 'love wearing this wristwatch',
-          price: 50.9),
+          price: 50.0),
     ];
 
     products.value = productResult;
