@@ -1,4 +1,4 @@
-import 'dart:ffi';
+
 
 import 'package:get/get.dart';
 import 'package:shopping_page/model/product.dart';
@@ -19,20 +19,20 @@ class ShoppingController extends GetxController {
           id: 1,
           productName: 'PeakMilk',
           productImage: 'productImage',
-          productDescription: 'Best Milk Ever',
-          price: 35),
+          productDescription: 'best milk ever',
+          price: 35.8),
       Product(
           id: 2,
-          productName: 'PeakMilk',
+          productName: 'Adiddas',
           productImage: 'productImage',
-          productDescription: 'Best Milk Ever',
-          price: 40),
+          productDescription: 'one of the greatest shoes ever',
+          price: 40.5),
       Product(
           id: 3,
-          productName: 'PeakMilk',
+          productName: 'G-Shock',
           productImage: 'productImage',
-          productDescription: 'Best Milk Ever',
-          price: 50),
+          productDescription: 'love wearing this wristwatch',
+          price: 50.9),
     ];
 
     products.value = productResult;
