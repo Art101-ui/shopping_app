@@ -91,16 +91,16 @@ class ShoppingPage extends StatelessWidget {
         ),
       ),
       floatingActionButton: FloatingActionButton.extended(
-        onPressed: () {},
+        onPressed: () => Get.toNamed('/cart'),
         backgroundColor: Colors.purple,
         icon: const Icon(
           Icons.add_shopping_cart_rounded,
-          color: Colors.black,
+          // color: Colors.black,
         ),
         label: GetX<CartController>(builder: (controller) {
           return Text(
             '${controller.count}',
-            style: const TextStyle(color: Colors.black, fontSize: 24),
+            style: const TextStyle(fontSize: 24),
           );
         }),
       ),
